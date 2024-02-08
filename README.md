@@ -1,0 +1,3 @@
+# Distance distributions from MD in xTB with GFN-FF
+File `dist_from_md.ipynb` is a Jupyter Notebook, must be run in the same folder with trajectory file `xtb.xyz` and input file `md_input.inp`.
+The `.py` file is in progress...
