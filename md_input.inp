@@ -1,0 +1,18 @@
+$md
+   temp=298 # in K
+   time= 500  # in ps
+   dump= 10.0  # in fs
+   step=  2.0  # in fs
+   velo=false
+   nvt =true
+   hmass=4
+   shake=2
+   sccacc=2.0
+$end
+$alpb
+   alpbgrid=verytight  
+$end
+$wall
+   potential=logfermi
+   sphere: 48, all
+$end
